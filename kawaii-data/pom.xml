@@ -8,6 +8,24 @@
     </parent>
     <artifactId>kawaii-data</artifactId>
     <packaging>jar</packaging>
+    <dependencies>
+
+        <!--Refer to Kawaii-Common-->
+        <dependency>
+            <groupId>com.una</groupId>
+            <artifactId>kawaii-common</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+
+        <!--Refer to JPA DATA-->
+        <dependency>
+            <groupId>org.hibernate.javax.persistence</groupId>
+            <artifactId>hibernate-jpa-2.0-api</artifactId>
+            <version>${jpa-version}</version>
+        </dependency>
+
+    </dependencies>
     <properties>
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>

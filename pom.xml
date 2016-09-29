@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.una</groupId>
+    <artifactId>kawaii</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>kawaii-data</module>
+        <module>kawaii-common</module>
+        <module>kawaii-security</module>
+        <module>kawaii-security-data</module>
+        <module>kawaii-security-web</module>
+        <module>kawaii-web</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <jpa-version>1.0.1.Final</jpa-version>
+    </properties>
+
+</project>

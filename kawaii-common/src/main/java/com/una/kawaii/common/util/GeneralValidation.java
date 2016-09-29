@@ -19,8 +19,6 @@ import java.util.regex.Pattern;
  */
 public class GeneralValidation {
 
-    private CommonException commonException;
-
 
     public boolean isValidAge(String birthDate, int validAge) {
         SimpleDateFormat df = new SimpleDateFormat(ICommonConstant.TimeStampManipulation.TIMESTAMP_TO_DATE_HYPHEN_SEPARATOR);
@@ -35,7 +33,7 @@ public class GeneralValidation {
                 result = false;
             }
         } catch (ParseException var7) {
-            commonException = new CommonException(var7.getMessage(), var7);
+            new CommonException(var7.getMessage(), var7);
             var7.printStackTrace();
             result = false;
         }
