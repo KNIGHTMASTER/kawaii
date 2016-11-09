@@ -4,7 +4,7 @@
 
     <appender name="CONSOLE" class="org.apache.log4j.ConsoleAppender">
         <layout class="org.apache.log4j.PatternLayout">
-            <param name="ConversionPattern" value="una-framework, | %d %5p| %c.%M(%L) | %m%n"/>
+            <param name="ConversionPattern" value="kawaii-framework, | %d %5p| %c.%M(%L) | %m%n"/>
         </layout>
     </appender>
 
@@ -17,7 +17,7 @@
         <param name="file" value="kawaii-log.log" />
         <layout class="org.apache.log4j.PatternLayout">
             <param name="ConversionPattern"
-                   value="una-framework, | %d %5p| %c.%M(%L) | %m%n" />
+                   value="kawaii-framework, | %d %5p| %c.%M(%L) | %m%n" />
         </layout>
     </appender>
 
@@ -41,7 +41,7 @@
         <level value="ERROR"/>
     </logger>
 
-    <logger name="com.una.kawaii">
+    <logger name="com.tripoin.kawaii">
         <level value="ALL"/>
     </logger>
 
